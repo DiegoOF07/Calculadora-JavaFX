@@ -1,0 +1,75 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21/04/2021, 10:45:01
+    Author     : Diego Oswaldo Flores Rivas <dflores-2020010@kinal.edu.gt>
+*/
+
+#ventanaPrincipal{
+    -fx-background-color: #FFFFFF;
+}
+
+.operadores{
+    -fx-background-color: #FFFFFF;
+    -fx-background-image: url("btn1_normal.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 66 56;
+    -fx-background-position: center center;
+    
+}
+
+.numeros{
+    -fx-background-color: #FFFFFF;
+    -fx-background-image: url("btn2_normal.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 66 56;
+    -fx-background-position: center center;
+}
+
+#btnIgual{
+    -fx-background-color: #FFFFFF;
+    -fx-background-image: url("btn3_normal.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 66 56;
+    -fx-background-position: center center;
+}
+
+.operadores:hover{
+    -fx-background-image: url("btn1_pressed.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 66 56;
+    -fx-background-position: center center;
+}
+
+.numeros:hover{
+    -fx-background-image: url("btn2_pressed.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 66 56;
+    -fx-background-position: center center;
+}
+
+#btnIgual:hover{
+    -fx-background-image: url("btn3_pressed.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 66 56;
+    -fx-background-position: center center;
+}
+
+
+#lblOperacion{
+     -fx-background-color: #EDFFFA;
+    -fx-font-family: 'Segoe UI';
+    -fx-font-size: 18;
+}
+
+#lblResultado{
+     -fx-background-color: #EDFFFA;
+    -fx-font-family: 'Segoe UI';
+    -fx-font-size: 36;
+}
+
+
+
